@@ -1,0 +1,22 @@
+favicon:
+
+cyber:
+<a target="_blank" href="https://icons8.com/icon/WMWP1MqUZRiS/cyber-security">la cyber-sécurité</a> icône par <a target="_blank" href="https://icons8.com">Icons8</a>
+
+matrix:
+<a target="_blank" href="https://icons8.com/icon/35597/matrix-desktop">Écran Matrix</a> icône par <a target="_blank" href="https://icons8.com">Icons8</a>
+
+morpheus:
+<a target="_blank" href="https://icons8.com/icon/Skpq9T6EGZm4/morpheus">Morpheus</a> icône par <a target="_blank" href="https://icons8.com">Icons8</a>
+
+menu burger:
+<a target="_blank" href="https://icons8.com/icon/120374/menu">hamburger</a> icône par <a target="_blank" href="https://icons8.com">Icons8</a>
+
+
+
+
+body bg transparent photo de lukas:
+Photo de Lukas: https://www.pexels.com/fr-fr/photo/ordinateur-portable-montrant-une-application-c-574069/
+
+body bg transparent 2 contact:
+Photo de Mikhail Nilov: https://www.pexels.com/fr-fr/photo/homme-personne-individu-mains-6894011/

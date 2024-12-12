@@ -1,0 +1,30 @@
+sources docu + vidéos
+
+Phishing:
+https://www.cnil.fr/fr/cnil-direct/question/le-phishing-cest-quoi#:~:text=Le%20phishing%2C%20c%27est%20quoi%20%3F
+https://youtu.be/PRSyNoUUXKk?si=spG13Au_AaQrVgaU
+
+Piratage:
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/piratage-de-compte#definition-piratage-compte:~:text=1.%20En%20quoi%20consiste%20le%20piratage%20de%20compte%20%3F
+https://www.youtube.com/watch?v=Lnpn-AZ9Qzo&ab_channel=InfoouMytho%3F
+
+faux support tech:
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/arnaques-au-faux-support-technique#definition-arnaque-faux-support-technique:~:text=1.-,Qu%E2%80%99est%2Dce%20que%20l%E2%80%99escroquerie%20au%20faux%20support%20technique%20%3F,-L%E2%80%99arnaque%20au%20faux
+https://www.youtube.com/watch?v=zuJUXDZg_DI&ab_channel=Cybermalveillance-gouv-fr
+
+virus:
+https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/virus-informatiques#definition-virus:~:text=1.-,Qu%E2%80%99est%2Dce%20qu%E2%80%99un%20virus%20informatique%20%3F%C2%A0,-Un%20virus%20est
+https://youtu.be/sLM9ugcGuHw?si=3cccunvOh8rpeQ_0
+
+violation de données:
+https://commission.europa.eu/law/law-topic/data-protection/rules-business-and-organisations/obligations/what-data-breach-and-what-do-we-have-do-case-data-breach_fr#:~:text=violation%20de%20donn%C3%A9es%3F-,Qu%E2%80%99est%2Dce%20qu%E2%80%99une%20violation%20de%20donn%C3%A9es,-et%20que%20doit
+https://www.youtube.com/watch?v=-cGAwtTZ1mY&ab_channel=ActecilAcademy
+
+cyberharcelement:
+https://www.service-public.fr/particuliers/vosdroits/F32239#:~:text=FR%20%2D%20Fran%C3%A7ais-,Cyberharc%C3%A8lement,-(harc%C3%A8lement%20sur%20internet
+https://youtu.be/zUW3JyLtYsQ?si=N5ovXlq-d8FSa7-U
+
+
+faux conseiller bancaire:
+https://www.economie.gouv.fr/daj/lettre-de-la-daj-les-victimes-dune-arnaque-au-faux-conseiller-bancaire-ne-peuvent-se-voir#:~:text=Cette%20escroquerie%20consiste%20%C3%A0%20se,r%C3%A9alisant%20un%20ou%20plusieurs%20virements.
+https://youtu.be/B23r1D_QQ2s?si=qPas43fUPFY54HqA

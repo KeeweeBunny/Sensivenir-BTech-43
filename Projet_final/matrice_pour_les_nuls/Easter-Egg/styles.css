@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body { 
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(../Images/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+}
+
+.navbar{
+    background-color: transparent;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:125px;
+    width:100%;
+}
+
+.navbar a img{
+    width: 500px;
+    backdrop-filter: blur(4px);
+}  
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 200px);
+    width: 100%;
+    margin-bottom: 75px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    backdrop-filter: blur(4px);
+    color: limegreen;
+    text-align: center;
+}
+
+.container a{
+    color: limegreen;
+}
+
+.container p{
+    font-size: 26px;
+    font-weight: 600;
+    padding: 5px 0px;
+    text-align: justify;
+}
+
+.titre{
+    font-size: 42px;
+    padding: 10px 0px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+}
+
+footer img{
+    background-color: lime;
+    border-radius: 25px;
+    width: 50px;
+    margin-right: 5px;
+}
+
+footer a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 25px;
+  transition: all;
+  transition-duration: 200ms;
+  text-align: center;
+  text-decoration: none;
+  color: lime;
+  border-radius: 50px;
+  font-size: 26px;
+  backdrop-filter: blur(4px);
+}
+
+footer a{
+    animation: pulseShadow 2s ease-in-out infinite;
+}
+
+@keyframes pulseShadow {
+    0% {
+      box-shadow: 0 0 0 0 rgba(220, 20, 60, 0.6);
+    }
+    70% {
+      box-shadow: 0 0 20px 10px rgba(220, 20, 60, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(220, 20, 60, 0.6);
+    }
+}
+
+@media screen and (max-width:900px){
+    .container{
+        width: 80%;
+        backdrop-filter: blur(4px);
+        color: limegreen;
+        text-align: center;
+    }
+    
+    .container p{
+        font-size: 24px;
+        font-weight: 600;
+        padding: 5px 0px;
+        text-align: justify;
+    }
+    
+    .titre{
+        font-size: 38px;
+        padding: 10px 0px;
+    }
+    
+    h2{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:665px){
+
+}
