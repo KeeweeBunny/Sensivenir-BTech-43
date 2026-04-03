@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Merriweater;
+}
+
+body { 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(transparent, #f5f5f5 95%), url(../Images/backgroundimage1.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    /* Background image alt= Photo de Lukas: https://www.pexels.com/fr-fr/photo/ordinateur-portable-montrant-une-application-c-574069/ */
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.navbar{
+    background-color: #14213D;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:125px;
+    width:100%;
+}
+
+.navbar a img{
+    width: 500px;
+}
+
+.subnavbar{
+    background-color: #007BFF ;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 75px;
+}   
+
+.subnavbar a{
+    position: relative;
+    background-color: transparent;
+    width: 150px;
+    text-align: center;
+    font-size: 26px;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.subnavbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #f5f5f5;
+    transition: 0.3s;
+}
+
+.subnavbar a:hover::before {
+    width: 100%;
+}
+
+details{
+    position: absolute  ;
+    top: 50px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+summary{
+    color: #007BFF;
+    width: 20px;
+    height: 20px;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    padding: 5px 10px;
+    background-color: #007bff89;
+    border-radius: 15px;
+}
+
+.summary a{
+    font-size: 20px;
+    padding: 5px;
+    color: f5f5f5;
+}
+
+.navbar a, .subnavbar a, .summary a, footer a, footer{
+    text-decoration: none;
+    color: #f5f5f5;
+}   
+
+
+
+
+main{
+    flex: 1;
+    height: calc(100% - 275px);
+    margin-bottom: 100px;
+    color: #14213D;
+}
+
+main, .welcome, .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    width: 60%;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    font-size: 28px;
+    font-weight: 550;
+    line-height: 50px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 25px;
+    backdrop-filter: blur(7px);  
+}
+
+.heal{
+    font-weight: 600;
+}
+
+.container{
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 60px 0px;
+    text-align: center;
+}
+
+.container p{
+    font-weight: 400;
+    font-size: 24px;
+}
+.item1, .item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.item1 a, .item2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#007BFF;
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    transition: all;
+    transition-duration: 200ms;
+    transition-delay: 0ms;
+}
+
+.item1 a:hover, .item2 a:hover{
+    background-color: #0052a9;
+    box-shadow: 4px 4px 10px #0052a9;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: #14213D;
+    padding: 0px 15px;
+
+}
+
+footer h3, footer a{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+footer a{
+  padding: 0 25px;
+  transition: all;
+  transition-duration: 200ms;
+  text-align: center;
+}
+
+footer a:hover{
+  background-color: #007BFF;
+  border-radius: 15px;
+  }
+
+
+
+
+
+#popup-overlay{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.8);
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.popup-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    padding:0px 20px;
+    color: #f5f5f5;
+    font-size: 28px;
+    text-align: center;
+}
+
+.popup-content p, .popup-content a{
+    color: #007BFF;
+    font-size: 26px;
+}
+
+.popup-exit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color:#f5f5f5;
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+
+.navbar .menu-hamburger {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    width: 35px;
+}
+
+@media screen and (max-width:900px) {
+
+    .subnavbar{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 25px;
+        right: 60px;
+        background-color: transparent;
+        
+    }
+
+    .navbar {
+        justify-content: flex-start; 
+    }
+
+    .welcome{
+        width: 80%;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .container p{
+        font-size: 20px;
+    }
+
+    .popup-content p, .popup-content a, .popup-content{
+        font-size: 18px;
+    }
+
+    .popup-exit{
+        font-size: 14px;
+        top: 5px;
+        right: 5px;
+    }
+    
+}
+
+@media screen and (max-width:665px){
+    .subnavbar{
+        display: none;
+    }
+
+    .navbar a img{
+        width: 300px;
+    }
+
+    .welcome{
+        width: 80%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .container{
+        width: 80%;
+    }
+    .container p{
+        font-size: 18px;
+    }
+
+    details{
+        display: block;
+    }
+
+    footer a, footer h3{
+        font-size: 18px;
+    }
+
+
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pensons sensiblisation, pensons avenir. Découvrez l'envers du décors de l'informatique et apprennez à détecter et vous protéger des menaces">
+        <meta name="keywords" content="Sensivenir, cybersécurité, cyberharcèlement, arnaque, phishing, hameçonnage, hack, piratage, pirate, violation de données, virus, spam, fraude, vol">
+        <meta name="author" content="Maxime Ravet">
+        <title> Sensivenir - Accueil </title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="../Images/favicon-cyber.png" alt="https://icons8.com/icon/WMWP1MqUZRiS/cyber-security">
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="../Accueil/index.html">
+                    <img src="../Images/sensivenir-logo.png" alt="Logo Sensivenir">
+                </a>
+            </nav>
+            <nav class="subnavbar">
+                <a href="../Contenu/index.html#intro">Introduction</a>
+                <a href="https://www.youtube.com/watch?v=Tna66otHkfc" target="_blank" >Se prémunir</a>
+            </nav>
+            <details>
+                <summary></summary>
+                <div class="summary">
+                    <a href="../Contenu/index.html#intro">Introduction</a>
+                    <a href="https://www.youtube.com/watch?v=Tna66otHkfc" target="_blank" >Se prémunir</a>
+                    <a href="../Contact/index.html">Contact</a>
+                </div>
+
+            </details>
+        </header>
+
+        <main>
+            <div class="welcome">
+                <h1>Bienvenue!</h1>
+                <p>Nous faisons façe à une ère ou les arnaques et les piratages liés à l'informatique deviennent monnaie courante, qui dans notre entourage n'a jamais reçu de sms ou bien de mail frauduleux promettant monts et merveilles ? <br>
+                Allant du Phishing au piratage de compte, faisant quelques détours par d'autres virus et violations de données, je vous propose de faire un premier pas avec moi dans ce monde pour en apprendre un peu plus, ensemble, afin de mieux s'en protéger. Car comme dit le proverbe <br> <i class="heal">"Il vaut mieux prevenir que guerir"</i> !</p>
+            </div>
+            <div class="container" id="container1">
+                <h2><u>Les menaces les plus <i>fréquentes</i> vis à vis des particuliers</u></h2>
+                <div class="item1">
+                    <p>A ce jour, le site Cybermalveillance.gouv.fr <!-- link --> réfencie plus de 50 formes de Cybermalveillance, seulement parmis celle ci il y'en a des plus fréquentes que d'autres: <i>Phishing, Piratage de compte, faux support technique...</i></p>
+                    <a href="../Contenu/index.html#top10">Lire la suite</a>
+                </div>
+            </div>
+            <div class="container" id="container2">
+                <h2><u>Le Phishing</u></h2>
+                <div class="item2">
+                    <p>Le phishing (ou hameçonnage) est une technique de fraude en ligne visant à tromper une personne pour qu'elle divulgue des informations sensibles, comme des mots de passe, des numéros de carte bancaire ou des données personnelles...</p>
+                    <a href="../Contenu/index.html#phishing">En savoir plus
+                    </a>
+                </div>
+             </div>
+             <div class="container" id="container3">
+                <h2><u>Cyberharcelement</u></h2>
+                <div class="item2">
+                    <p>Le cyberharcèlement est une forme d'harcèlement qui se produit en ligne, via des messages, des emails ou d'autres plateformes numériques. Cela peut inclure des insultes, des menaces, des rumeurs, ou le partage d'informations personnelles ou d'images embarrassantes pour blesser ou intimider quelqu'un...</p>
+                    <a href="../Contenu/index.html#cyberbully">En savoir plus</a>
+                </div>
+             </div>
+        </main>
+
+
+
+        <footer class="footer">
+            <h3>Tout droit réservé. Maxime RAVET, BTech43.</h3>
+            <a href="../Contact/index.html">Contact</a>
+        </footer>
+
+
+       
+        <div id="popup-overlay">
+            <div class="popup-content">
+                <h2>Des cookies ? 🍪</h2>
+                <p>Et non, pour une fois un site ne vous propose pas d'accepter ou de refuser des cookies ! bienvenue et bonne lecture 📖 <br>
+                Mais j'y pense, savez vous ce qu'est un <a href="https://www.cnil.fr/fr/definition/cookie#:~:text=Les%20cookies%20ont%20de%20multiples,fins%20statistiques%20ou%20publicitaires%2C%20etc." target="_blank">Cookie..?</a></p>
+                <button class="popup-exit">Fermer</button>
+            </div>
+        </div>
+
+        <script>
+            document.querySelector(".popup-exit").addEventListener("click", function() {
+                document.querySelector("#popup-overlay").style.display = "none";
+            });
+        </script>
+
+
+    </body>
+</html>
